@@ -26,8 +26,7 @@ func unPackStr(line string) {
 		if number == 0 {
 			number = 1
 		}
-		symbol := i - 1
-		val := strings.Repeat(l[symbol], number)
+		val := strings.Repeat(l[i-1], number)
 		value += val
 	}
 
